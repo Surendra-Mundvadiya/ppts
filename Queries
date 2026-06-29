@@ -1,0 +1,159 @@
+For this invention, the core inventive concept appears to be:
+
+A system captures multimodal data, calculates a “worthiness score” or relevance/value score from that multimodal data, and decides whether the captured data should be stored based on the score.
+
+In prior art search, do not search only “worthiness score.” Prior art may use different terms such as “importance score,” “relevance score,” “utility score,” “saliency score,” “event score,” “storage priority,” “data retention decision,” “selective recording,” or “adaptive storage.”
+
+Search strings:
+
+1. Broad invention search
+
+("worthiness score" OR "importance score" OR "relevance score" OR "utility score" OR "priority score" OR "saliency score")
+AND
+("multimodal" OR "multi-modal" OR "multiple modalities" OR "sensor data" OR "audio video" OR "image audio" OR "camera microphone")
+AND
+("store" OR "storage" OR "record" OR "retain" OR "save")
+AND
+("captured data" OR "sensor data" OR "media data" OR "event data")
+
+2. Storage decision based on score
+
+("score" OR "ranking" OR "priority" OR "confidence")
+AND
+("storage decision" OR "selective storage" OR "data retention" OR "selective recording" OR "conditional storage")
+AND
+("multimodal data" OR "multi-modal data" OR "sensor data" OR "audio data" OR "image data" OR "video data")
+
+3. Multimodal event detection angle
+
+("multimodal" OR "multi-modal")
+AND
+("event detection" OR "event importance" OR "event relevance" OR "event significance")
+AND
+("store" OR "save" OR "record" OR "retain" OR "discard")
+AND
+("score" OR "threshold" OR "confidence value" OR "importance value")
+
+4. Captured data filtering before storage
+
+("captured data" OR "sensor data" OR "media stream" OR "video stream")
+AND
+("filtering" OR "selection" OR "discarding" OR "retention")
+AND
+("based on" NEAR/5 ("score" OR "importance" OR "relevance" OR "value"))
+AND
+("multimodal" OR "multiple sensors" OR "audio video")
+
+5. AI/ML-based storage optimization
+
+("machine learning" OR "artificial intelligence" OR "neural network")
+AND
+("multimodal data" OR "sensor fusion" OR "audio visual data")
+AND
+("storage optimization" OR "memory management" OR "data retention" OR "selective storage")
+AND
+("importance score" OR "relevance score" OR "priority score" OR "confidence score")
+
+6. Threshold-based storage decision
+
+("importance score" OR "relevance score" OR "worthiness score" OR "utility score")
+AND
+("threshold" OR "predetermined threshold")
+AND
+("store" OR "save" OR "retain")
+AND
+("discard" OR "delete" OR "not store")
+AND
+("multimodal" OR "sensor fusion" OR "audio visual")
+
+7. Surveillance / camera prior art angle
+
+("video surveillance" OR "camera system" OR "monitoring system")
+AND
+("audio" OR "microphone" OR "multimodal")
+AND
+("event score" OR "importance score" OR "relevance score" OR "alert score")
+AND
+("selective recording" OR "recording decision" OR "storage decision" OR "data retention")
+
+8. Wearable / mobile device angle
+
+("wearable device" OR "mobile device" OR "smart glasses" OR "head mounted device" OR "AR glasses")
+AND
+("multimodal" OR "camera" OR "microphone" OR "sensor data")
+AND
+("importance score" OR "context score" OR "relevance score" OR "utility score")
+AND
+("store captured data" OR "selectively store" OR "retain data" OR "discard data")
+
+9. Automotive / dashcam angle
+
+("vehicle" OR "dashcam" OR "driver monitoring" OR "advanced driver assistance")
+AND
+("multimodal" OR "camera" OR "audio" OR "sensor fusion")
+AND
+("event importance" OR "event score" OR "risk score" OR "relevance score")
+AND
+("record" OR "store" OR "retain")
+AND
+("captured data" OR "video data" OR "sensor data")
+
+10. Patent-database style search string
+
+(("multimodal" OR "multi-modal" OR "sensor fusion" OR "multiple sensor")
+AND
+("captured data" OR "sensor data" OR "media data" OR "audio visual data")
+AND
+("importance score" OR "relevance score" OR "priority score" OR "utility score" OR "confidence score" OR "event score")
+AND
+("selective storage" OR "conditional storage" OR "data retention" OR "selective recording" OR "store based on threshold"))
+
+For Google Patents, use this narrower version first:
+
+("multimodal" OR "sensor fusion") ("importance score" OR "relevance score" OR "priority score" OR "event score") ("selective storage" OR "conditional storage" OR "data retention" OR "selective recording")
+
+For Espacenet / Orbit / Derwent-style Boolean search:
+
+(multimodal OR "multi-modal" OR "sensor fusion")
+AND
+("importance score" OR "relevance score" OR "priority score" OR "utility score" OR "event score" OR "saliency score")
+AND
+("selective storage" OR "conditional storage" OR "data retention" OR "selective recording" OR "storage decision")
+
+Key CPC classes to check:
+
+G06F 16/00     Information retrieval; database structures
+G06F 16/70     Retrieval/indexing of multimedia data
+G06V 20/00     Image or video recognition
+G06N 20/00     Machine learning
+G06T 7/00      Image analysis
+H04N 5/76      Recording of television/video signals
+H04N 21/00     Multimedia content distribution
+G08B 13/00     Alarm systems / surveillance
+G07C 5/00      Vehicle data recording
+
+Most relevant prior-art concepts to look for:
+
+selective recording based on event importance
+multimodal sensor fusion for relevance scoring
+AI-based retention of captured data
+storage of sensor data based on confidence score
+discarding low-value captured data
+event-triggered recording using audio and video signals
+context-aware data retention
+saliency-based video storage
+priority-based sensor data storage
+
+Best combined search query:
+
+("multimodal" OR "multi-modal" OR "sensor fusion")
+AND
+("captured data" OR "sensor data" OR "audio visual data" OR "media data")
+AND
+("importance score" OR "relevance score" OR "utility score" OR "priority score" OR "event score" OR "saliency score")
+AND
+("store" OR "save" OR "retain" OR "record")
+AND
+("discard" OR "not store" OR "selective storage" OR "conditional storage" OR "data retention decision")
+
+For novelty assessment, focus on whether prior art discloses all three elements together: multimodal captured data, computation of a value/worthiness score, and storage/non-storage decision based on that score. If prior art has only event detection or only storage compression, it may be relevant but not fully anticipatory unless it links the score to the retention decision.
